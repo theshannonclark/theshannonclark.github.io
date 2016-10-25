@@ -1,0 +1,61 @@
+title:            Shannon Clark
+tagline:          Web developer extraordinaire.
+description:      Blog/portfolio.
+canonical: http://theshannonclark.github.io
+
+# Owner/author information
+owner:
+  name:           Shannon Clark
+  avatar:         avatar.png
+  bio:            "Web developer"
+  email:          theshannonclark@gmail.com
+  twitter:        theshannonclark
+  github:         theshannonclark
+  #instagram:      ctrunsthis
+  #dribbble:       coletownsend
+  disqus:         shannonclark
+  location:       "Bendigo, Vic"
+  # Plug in your disqus shortname!
+
+tools:
+  standards:      "HTML, SCSS, Jekyll"
+  software:       "git"
+
+# Open Graph customization
+opengraph:
+  locale:           en_AU
+
+# Links to include in top navigation
+# For external links add external: true
+links:
+  - title: About
+    url: /about
+
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone:    Australia/Melbourne
+future:      true
+highlighter: rouge
+markdown:    kramdown
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  use_coderay: false
+
+  coderay:
+    coderay_line_numbers:
+    coderay_line_numbers_start: 1
+    coderay_tab_width: 4
+    coderay_bold_every: 10
+    coderay_css: class
+
+sass:
+    style: :compressed
+
+# https://github.com/mojombo/jekyll/wiki/Permalinks
+permalink:   /:categories/:title
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp"]
